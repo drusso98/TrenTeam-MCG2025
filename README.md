@@ -36,14 +36,14 @@ The default values are:
 
 - `dataset: train`
 
-- `llm_reranker: True`
+- `llm_reranker: False`
 
 - `threshold: 0.35`
 
 These parameters can be easily modified. For example:
 
 ```console
-python pre_process_train_data.py -dataset dev -llm_reranker False -threshold 0.5
+python pre_process_train_data.py -dataset dev -llm_reranker True -threshold 0.5
 ```
 
 The script will save the ROUGE scores and the input re-ranker training data in the data folder with the names `{dataset}_rl_scores.json` and `reranker_{dataset}(_LLM).jsonl` respectively.
