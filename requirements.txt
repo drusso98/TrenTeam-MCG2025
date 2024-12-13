@@ -1,0 +1,7 @@
+pandas
+fsspec
+huggingface-hub
+evaluate
+nltk
+rouge-score
+absl-py
