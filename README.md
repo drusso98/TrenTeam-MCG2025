@@ -53,8 +53,22 @@ The script will save the ROUGE scores and the input re-ranker training data in t
 If you use this code or data in your research, please cite our paper: 
 
 ```bibtex
-@inproceedings{russo-2025-TrenTeam,
-  title={TrenTeam at Multilingual Counterspeech Generation: Passage Re-Ranking Approaches for Knowledge-Driven Counterspeech Generation Against Hate},
-  author={Russo, Daniel},
-  year={2025}
+@inproceedings{russo-2025-trenteam,
+    title = "{T}ren{T}eam at Multilingual Counterspeech Generation: Multilingual Passage Re-Ranking Approaches for Knowledge-Driven Counterspeech Generation Against Hate",
+    author = "Russo, Daniel",
+    editor = "Bonaldi, Helena  and
+      Vallecillo-Rodr{\'i}guez, Mar{\'i}a Estrella  and
+      Zubiaga, Irune  and
+      Montejo-R{\'a}ez, Arturo  and
+      Soroa, Aitor  and
+      Mart{\'i}n-Valdivia, Mar{\'i}a Teresa  and
+      Guerini, Marco  and
+      Agerri, Rodrigo",
+    booktitle = "Proceedings of the First Workshop on Multilingual Counterspeech Generation",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.mcg-1.9/",
+    pages = "77--91"
 }
